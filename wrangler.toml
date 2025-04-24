@@ -1,0 +1,10 @@
+name = "umami-proxy"
+main = "src/index.js"
+compatibility_date = "2025-04-24"
+
+[observability]
+enabled = true
+
+[[routes]]
+pattern = "umami.eckertalex.dev"
+custom_domain = true
